@@ -9,7 +9,7 @@ window.tracer(0)    # stops the window from updating
 
 #   1st Paddle
 paddle_one = turtle.Turtle()
-paddle_one.speed(0)     # speed of animation, '0' for MAX
+paddle_one.speed(1)     # speed of animation, '0' for MAX
 paddle_one.color("white")
 paddle_one.shape("square")
 paddle_one.shapesize(stretch_wid=5, stretch_len=1)  # 20*5 height
